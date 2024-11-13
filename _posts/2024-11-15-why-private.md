@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Why Private AI?"
-date:   2024-11-13 13:00:00 -0800
+date:   2024-11-15 13:00:00 -0800
 categories: LLM private AI cloud
 ---
 
@@ -93,4 +93,4 @@ It seems to me that Private AI is just like Private Cloud. Public experiences wi
 
 - - -
 
-Hunter an I discussed this in Episode 3 of *Things We Read This Week*. You can watch it [here on YouTube](https://www.youtube.com/watch?v=Byjlr0xplNI).
+Hunter and I discussed this in Episode 3 of *Things We Read This Week*. You can watch it [here on YouTube](https://www.youtube.com/watch?v=Byjlr0xplNI).
