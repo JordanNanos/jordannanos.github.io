@@ -3,4 +3,4 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
-*.note
+/images/update-certs.note
