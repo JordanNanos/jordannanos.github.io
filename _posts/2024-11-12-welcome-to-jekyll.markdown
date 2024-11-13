@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Welcome"
-date:   2024-11-13 11:53:26 -0800
+date:   2024-11-12 12:00:00 -0800
 categories: welcome update
 ---
 I guess I've started a blog.
