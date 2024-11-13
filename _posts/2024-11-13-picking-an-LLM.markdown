@@ -102,6 +102,11 @@ The obvious conclusion to draw here is that there is a tradeoff:
 Understanding this tradeoff is critical to ensure that you have control over the cost and performance (quality and speed) of your LLM-powered application.
 
 <br>
+
+Anyway, the answer is `nvidia/Llama-3.1-Nemotron-70B-Instruct-HF` what was the question again?
+
+<br>
+
 - - -
 
 Watch this video for more detail, and a live demo comparing latency and throughput for three different sizes (8B, 70B, 405B) of the Llama 3.1 Instruct model: [YouTube](https://www.youtube.com/watch?v=sNRqJOEKkCw)
