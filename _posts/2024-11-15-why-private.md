@@ -12,14 +12,11 @@ One big question that comes up is about **control**. How can an organization or 
 
 Not everyone cares about this. But for those who do, it's critical.
 
-I think there are three major reasons why organizations want control over their AI-powered applications, and I'll discuss them in this post: **Data**, **Model Performance**, and **Cost**. 
+I think there are three major reasons why organizations want control over their AI-powered applications, and I'll discuss them in this post: **Data**, **Model Performance**, and **Cost**.
 
 The only way to address these concerns is to run a model in private, that you have full control over.
 
-
-
-
-## Data
+## 1. Data
 
 Having control over your data means what you think... don't let anyone else see it.
 
@@ -42,7 +39,7 @@ Beyond reputational risk, regulations like HIPAA and PCI forces counterparties i
 The final example of losing control of your data is when some engineer goes and uploads a document describing trade secrets, debugs some code with a proprietary algorithm inside, or signs a waiver to download a confidential document, forgets about the waiver, and then uploads it to get a quick summary. Looking at you [Samsung](https://www.bloomberg.com/news/articles/2023-05-02/samsung-bans-chatgpt-and-other-generative-ai-use-by-staff-after-leak)...
 
 
-## Model Performance
+## 2. Model Performance
 
 I referred to this in a previous blog: there are two ways to measure model performance: the **speed** of the output, and the **quality** of the output.
 
@@ -79,13 +76,15 @@ In all of these cases, it is clear that the developer of the LLM-powered applica
 As discussed earlier, the quality of your AI-powered application depends on the quality of your data. If you want to integrate private datasets without taking on risk, you have to host the endpoint(s) for yourself.
 
 
-## Cost
+## 3. Cost
 
-### No surprise bills for data egress or bursting during busy times
+The biggest thing that bothers me about using public API's is paying per token. It seems like cloud has gone too far: first it was CPU cycles by the hour. Then it was functions as-a-Service. Now if the model is too chatty I'm getting hit with a bill.
 
-### No per-token or per-user licensing that grows over time
+This isn't fantasy: many use cases for large context windows are popping up. The first Harry Potter book is around 100k tokens, and so are lots of my product spec sheets and user guides. Anthropic is pricing Claude 3.5 Sonnet at $3/M tokens. OpenAI has gpt-4o at $5/M tokens. Google has Gemini 1.5 Pro at $1.25/M tokens. 
 
-### Emphasis on best-of-breed open source tools prevents lockin
+So, (over simplifying and avoiding the pricing improvements of context caching), if I have 10 questions about the first Harry Potter book that's going to cost me between $1 and $5. 
+
+I have a few more questions than that.
 
 
 ## Conclusion: The World Will Be Hybrid
