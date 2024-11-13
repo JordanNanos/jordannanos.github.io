@@ -2,7 +2,7 @@
 layout: post
 title:  "Picking an LLM for Private AI"
 date:   2024-11-13 12:00:00 -0800
-categories: LLM private AI cloud
+categories: llm
 ---
 
 *Note: this blog is based on a video and slide deck available [here on YouTube](https://www.youtube.com/watch?v=sNRqJOEKkCw).*

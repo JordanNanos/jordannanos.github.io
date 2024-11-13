@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome"
 date:   2024-11-12 12:00:00 -0800
-categories: welcome update
+categories: welcome
 ---
 I guess I've started a blog.
 

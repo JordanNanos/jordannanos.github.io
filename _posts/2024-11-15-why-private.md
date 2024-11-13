@@ -2,7 +2,7 @@
 layout: post
 title:  "Why Private AI?"
 date:   2024-11-15 13:00:00 -0800
-categories: LLM private AI cloud
+categories: llm
 ---
 
 
