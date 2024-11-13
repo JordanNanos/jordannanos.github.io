@@ -5,15 +5,13 @@ date:   2024-11-13 12:25:00 -0800
 categories: LLM private AI cloud
 ---
 
-# How to Pick a Large Language Model for Private AI
-
 *Note: this blog is based on a video and slide deck available [here on YouTube](https://www.youtube.com/watch?v=sNRqJOEKkCw).*
 
 As organizations continue to explore the potential of generative AI, choosing the right Large Language Model (LLM) is crucial for performance, scalability, and integration with existing systems. This post explores key considerations for selecting an LLM, including understanding different classes of models, evaluating performance, and planning for hardware requirements.
 
-## Classes of Language Models: What Does “Large” Mean?
+## What Does “Large” Mean?
 
-Language models vary significantly in scale, with "large" models generally characterized by the number of parameters they contain. However, "large" has become a misnomer, with many models capable of running on mobile devices like laptops and cell phones. The size of the model will correspond with two types of "performance" -- quality and speed. Understanding these tradeoffs is important when considering the models feasibility for certain applications. \
+Language models vary significantly in scale, with "large" models generally characterized by the number of parameters they contain. However, "large" has become a misnomer, with many models capable of running on mobile devices like laptops and cell phones. The size of the model will also correspond with two types of "performance" -- quality and speed. Understanding these tradeoffs is important when considering the models feasibility for certain applications. \
 \
 In the chart below I describe five T-Shirt sizes of language models, where XS can fit on a mobile device (laptop, phone) and XL can only run on the latest 8-way GPU servers.
 
